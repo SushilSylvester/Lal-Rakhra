@@ -52,7 +52,12 @@ li a{
   text-decoration: none;
   color: black;
   font-family:  "Bebas Neue";
-  
+}
+
+li a:hover{
+	text-decoration: underline;
+	color:#ff6300;
+
 }
 
 .navbar input[type=text] {
