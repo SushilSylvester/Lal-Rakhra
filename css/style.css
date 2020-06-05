@@ -72,9 +72,13 @@ li a{
  
 }
 
+input{
+	width: 270px;
+	height: 100%;
+}
 .searchbar {
-	width: 300px;
-float: right;
+  width: 300px;
+  float: right;
   padding: 6px;
   border: none;
   margin-top: 8px;
@@ -569,4 +573,21 @@ float: left;
 
 .line5 a:hover{
   color: #ff6300;
+}
+
+.footer{
+	width: 98%;
+    background-color: black;
+	color: white;
+	padding: 12px;
+	}
+
+.footer p{
+	font-family: "Lato";
+	font-size: 12px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #ff6300;
 }
